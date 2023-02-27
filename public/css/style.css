@@ -382,10 +382,11 @@ section.home {
 .layer h5 {
     position: absolute;
     width: 100%;
+    padding: 0 1.2rem;
     font-size: 17px;
     font-weight: 500;
+    line-height: 25px;
     color: var(--bg-color);
-    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -393,7 +394,7 @@ section.home {
 }
 
 .layer:hover h5 {
-    bottom: 48%;
+    bottom: 10%;
     opacity: 1;
 }
 
